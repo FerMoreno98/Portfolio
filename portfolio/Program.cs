@@ -1,9 +1,20 @@
+using portfolio.Servicio;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Agregar el Gestor de Secretos solo en el entorno de desarrollo
+if (builder.Environment.IsDevelopment())
+{
+    builder.Configuration.AddUserSecrets<Program>();
+}
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<Conexion>();
 
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

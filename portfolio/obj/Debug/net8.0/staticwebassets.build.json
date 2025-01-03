@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a0D5p3/XvXPV2z4pe3W18r42TKQkrprKK/c0oRUbRVM=",
+  "Hash": "NHs46xtMCu+EIgFIthdPf8Q4jblV/dkW3PmTerXW4Bo=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -245,6 +245,25 @@
       "OriginalItemSpec": "wwwroot\\images\\git.png"
     },
     {
+      "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\glqr.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "images/glqr.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\glqr.png"
+    },
+    {
       "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\grupoleben.png",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
@@ -414,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\SQLServer.png"
+    },
+    {
+      "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\index.js",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
       "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\site.js",

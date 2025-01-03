@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\workingfolder\\portfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "portfolio\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "portfolio\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAADIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-30T17:11:26.036Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\appsettings.json",
+              "RelativeDocumentMoniker": "portfolio\\appsettings.json",
+              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\appsettings.json",
+              "RelativeToolTip": "portfolio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-03T12:46:10.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Index.cshtml",
-              "RelativeToolTip": "portfolio\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAswHQAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T19:51:10.608Z",
+              "DocumentIndex": 4,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\index.js",
+              "RelativeDocumentMoniker": "portfolio\\wwwroot\\js\\index.js",
+              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\index.js",
+              "RelativeToolTip": "portfolio\\wwwroot\\js\\index.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-02T15:18:57.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "portfolio\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\Program.cs",
+              "RelativeDocumentMoniker": "portfolio\\Program.cs",
+              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\Program.cs",
+              "RelativeToolTip": "portfolio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T12:16:35.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "portfolio\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "portfolio\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T11:24:40.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Index.cshtml",
+              "RelativeToolTip": "portfolio\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T16:35:18.738Z",
+              "WhenOpened": "2024-12-28T19:51:10.608Z",
               "EditorCaption": ""
             }
           ]

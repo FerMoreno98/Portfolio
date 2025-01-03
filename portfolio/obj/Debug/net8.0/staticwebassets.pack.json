@@ -73,12 +73,20 @@
       "PackagePath": "staticwebassets\\images\\git.png"
     },
     {
+      "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\glqr.png",
+      "PackagePath": "staticwebassets\\images\\glqr.png"
+    },
+    {
       "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\grupoleben.png",
       "PackagePath": "staticwebassets\\images\\grupoleben.png"
     },
     {
       "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\portafolio-captura.png",
       "PackagePath": "staticwebassets\\images\\portafolio-captura.png"
+    },
+    {
+      "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
       "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\site.js",

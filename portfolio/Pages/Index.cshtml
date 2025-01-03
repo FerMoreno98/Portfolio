@@ -1,4 +1,5 @@
 ﻿@page
+@Html.AntiForgeryToken()
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -9,7 +10,7 @@
             <a class="nav-item nav-link" href="#experiencetitle">Experience</a>
             <a class="nav-item nav-link" href="#experiencetitle">Projects</a>
             <a class="nav-item nav-link" href="#technologiesCarousel">Technologies</a>
-            <a class="nav-item nav-link" id="contactme">Contact me</a>
+            <a class="nav-item nav-link" id="contactme" style="cursor:pointer">Contact me</a>
         </div>
 </nav>
 
@@ -65,7 +66,6 @@
 
 <div id="proyectsCarousel" class="carousel slide mt-5 vt323-regular mb-5" style="color: #3498db" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <!-- Primera página del carrusel -->
         <div class="carousel-item active">
             <div class="card mx-auto techcard" style="width: 24rem;">
                 <img src="~/images/chess-java.png" class="card-img-top" alt="Chess project screenshot">
@@ -80,8 +80,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Segunda página del carrusel -->
         <div class="carousel-item">
             <div class="card mx-auto techcard" style="width: 24rem;">
                 <img src="~/images/Ahorcado-java.png" class="card-img-top" alt="Ahorcado project screenshot">
@@ -129,7 +127,6 @@
                 </div>
             </div>
         </div>
-        <!-- Agregar más páginas para los otros proyectos -->
     </div>
 
     <!-- Controles del carrusel -->
@@ -247,16 +244,16 @@
                 <form>
                     <div class="mb-3">
                         <label for="recipient-name" class="col-form-label">Recipient:</label>
-                        <input type="text" class="form-control" id="recipient-name">
+                        <input type="text" class="form-control" id="email">
                     </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Message:</label>
-                        <textarea class="form-control" id="message-text"></textarea>
+                        <textarea class="form-control" id="mensaje"></textarea>
                     </div>
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Send message</button>
+                <button type="button" class="btn btn-primary" id="enviar">Send message</button>
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>   
             </div>
         </div>
