@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\Ahorcado-java.png",
+      "PackagePath": "staticwebassets\\images\\Ahorcado-java.png"
+    },
+    {
       "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\HTMLCSS.webp",
       "PackagePath": "staticwebassets\\images\\HTMLCSS.webp"
     },
@@ -33,6 +37,10 @@
       "PackagePath": "staticwebassets\\images\\NETCore.png"
     },
     {
+      "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\Net.png",
+      "PackagePath": "staticwebassets\\images\\Net.png"
+    },
+    {
       "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\SQLServer.png",
       "PackagePath": "staticwebassets\\images\\SQLServer.png"
     },
@@ -41,8 +49,16 @@
       "PackagePath": "staticwebassets\\images\\boostrap.jpg"
     },
     {
+      "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\chess-java.png",
+      "PackagePath": "staticwebassets\\images\\chess-java.png"
+    },
+    {
       "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\csharp.png",
       "PackagePath": "staticwebassets\\images\\csharp.png"
+    },
+    {
+      "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\dot_netIcon.png",
+      "PackagePath": "staticwebassets\\images\\dot_netIcon.png"
     },
     {
       "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\fondoweb.webp",
@@ -55,6 +71,14 @@
     {
       "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\git.png",
       "PackagePath": "staticwebassets\\images\\git.png"
+    },
+    {
+      "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\grupoleben.png",
+      "PackagePath": "staticwebassets\\images\\grupoleben.png"
+    },
+    {
+      "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\portafolio-captura.png",
+      "PackagePath": "staticwebassets\\images\\portafolio-captura.png"
     },
     {
       "Id": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\site.js",

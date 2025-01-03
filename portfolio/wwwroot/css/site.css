@@ -27,6 +27,72 @@ body {
     padding: 0;
 }
 
+/*NAVBAR*/
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 70%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .navbar.scrolled {
+        background-color: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+        backdrop-filter: blur(8px); /* Desenfoque del fondo para mejor legibilidad */
+        -webkit-backdrop-filter: blur(8px); /* Compatibilidad con navegadores Webkit */
+    }
+
+.nav-link {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    .nav-link:hover {
+        color: #78EFCB;
+    }
+
+.navbar-nav {
+    gap: 30px;
+}
+
+.nav-item {
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .nav-item:hover {
+        transform: scale(1.05);
+    }
+
+#aboutme{
+
+    margin-top:5rem
+}
+/* Experience Section */
+#experience .card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    
+}
+
+.titulo h2 {
+    color: #7CE2EF;
+    font-size: 50px;
+}
+
+#experience p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/*TECH*/
+#technologiesCarousel{
+    margin-bottom:20rem;
+}
+
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
@@ -41,15 +107,71 @@ body {
     }
 }
 
+
+
 .vt323-regular {
     font-family: "VT323", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.card {
-    background-color: transparent; /* Hace que la tarjeta no tenga un color de fondo específico */
-    background-image: inherit; /* Hereda el fondo de la página */
-    background-size: cover; /* Asegura que el fondo cubra toda la tarjeta */
-    background-position: center; /* Centra el fondo de la tarjeta */
+.card{
+    background-color: transparent; 
+    background-image: inherit; 
+    background-size: cover; 
+    background-position: center; 
 }
+
+.techcard {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+    .techcard:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .techcard img {
+        object-fit: cover;
+        height: 150px;
+     
+    }
+
+    .techcard h4 {
+        color: #7CE2EF;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .techcard p {
+        font-size: 20px;
+        color: #78EFCB;
+        line-height: 1.5;
+    }
+.carousel-inner .carousel-item {
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+a i {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #555;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+    a i:hover {
+        color: #3498db; /* Color al pasar el mouse (puedes ajustar esto) */
+        transform: scale(1.2); /* Aumenta ligeramente el tamaño */
+    }
+
+    /*Modal email*/
+
+    #ModalEmail h1{
+        color:black;
+    }
+
+    #ModalEmail form label{
+        color:black;
+    }

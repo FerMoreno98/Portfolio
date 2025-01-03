@@ -3,62 +3,183 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<nav class="navbar navbar-expand vt323-regular">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#aboutme">About me</a>
+            <a class="nav-item nav-link" href="#experiencetitle">Experience</a>
+            <a class="nav-item nav-link" href="#experiencetitle">Projects</a>
+            <a class="nav-item nav-link" href="#technologiesCarousel">Technologies</a>
+            <a class="nav-item nav-link" id="contactme">Contact me</a>
+        </div>
+</nav>
 
-<div class="text-center">
-    <h2 class="display-4 vt323-regular mb-4" style="color: #3498db;">BUILDING ROBUST BACKEND</h2>
+<div class="text-center" id="aboutme" style="margin-bottom:300px; margin-top:200px" data-aos="zoom-in-up" >
+    <h2 class="display-4 vt323-regular mb-4" style="color: #7CE2EF;">BUILDING ROBUST BACKEND</h2>
     <div class="card mb-3 mx-auto border-0" style="max-width: 540px;">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="/images/foto fer.JPG" class="img-fluid rounded-start" />
+                <img src="/images/foto fer.JPG" class="img-fluid" style="border-radius: 50%; border: 2px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);" />
             </div>
             <div class="col-md-8">
                 <div class="card-body" style="color: #2c3e50;">
-                    <h3 class="card-title vt323-regular" style="color: #3498db">Fernando Moreno</h3>
-                    <p class="card-text vt323-regular" style="color: #3498db; font-size:18px;">
+                    <h3 class="card-title vt323-regular" style="color: #7CE2EF;font-size:35px">Fernando Moreno</h3>
+                    <p class="card-text vt323-regular" style="color: #78EFCB; font-size:18px;">
                         Backend developer specializing in .NET, With a strong focus on building robust and scalable systems
                     </p>
-                    <a href="#"><i class="fa-brands fa-linkedin" style="font-size: 50px; margin-right: 10px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-github" style="font-size: 50px;"></i></a>
+                    <a href="https://www.linkedin.com/in/fernando-moreno-marzal-26b105273/"><i class="fa-brands fa-linkedin" ></i></a>
+                    <a href="https://github.com/FerMoreno98"><i class="fa-brands fa-github" ></i></a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="text-center mt-5 vt323-regular" style="color: #3498db;">
-    <h2>Technologies</h2>
+<div data-aos="fade-up" style="margin:200px;">
+<div class="text-center mt-5 vt323-regular mb-4 titulo">
+    <h2>EXPERIENCE</h2>
+</div>
+<div class="container-fluid w-100" id="experience" >
+    <div class="card mb-3 border-0" >
+    <div class="row g-0">
+        <div class="col-md-3 bg-light w-25">
+            <img src="/images/grupoleben.png" alt="imagen grupo leben" class="img-fluid w-100" />
+        </div>
+        <div class="col-md-9">
+            <div class="card-body" style="color: #2c3e50;">
+                    <h3 class="card-title vt323-regular" style="color: #7CE2EF; font-size:35px">Grupo Leben</h3>
+                    <p class="card-subtitle vt323-regular" style="color: #AED6D1;">(sept 2024-currently)</p>
+                    <p class="card-text vt323-regular" style="color: #78EFCB; font-size:20px;">
+                    My main functions at this company are making razor components in combination with javascript
+                    to make functional services to our web applications for our clients. Besides, I also create blazor components in order
+                    to make web applications for the company.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div data-aos="zoom-in-up" style="margin-bottom:200px">
+<div class="text-center mt-5 vt323-regular titulo" style="color: #3498db;">
+    <h2>FEATURED PROJECTS</h2>
 </div>
 
-<div id="technologiesCarousel" class="carousel slide mt-5 vt323-regular" style="color: #3498db" data-bs-ride="carousel">
+<div id="proyectsCarousel" class="carousel slide mt-5 vt323-regular mb-5" style="color: #3498db" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <!-- Primera página del carrusel -->
+        <div class="carousel-item active">
+            <div class="card mx-auto techcard" style="width: 24rem;">
+                <img src="~/images/chess-java.png" class="card-img-top" alt="Chess project screenshot">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Chess</h5>
+                    <div class="d-flex justify-content-center mb-3" style="gap: 10px;">
+                        <i class="fa-brands fa-java" style="font-size: 30px; color: #F89820;"></i>
+                        <i class="fa-solid fa-database" style="color: #6C757D; font-size: 30px;"></i>
+                    </div>
+                    <p class="card-text">Desktop application to play chess using Swing for the UI.</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-brands fa-github"></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda página del carrusel -->
+        <div class="carousel-item">
+            <div class="card mx-auto techcard" style="width: 24rem;">
+                <img src="~/images/Ahorcado-java.png" class="card-img-top" alt="Ahorcado project screenshot">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ahorcado</h5>
+                    <div class="d-flex justify-content-center mb-3" style="gap: 10px;">
+                        <i class="fa-brands fa-java" style="font-size: 30px; color: #F89820;"></i>
+                        <i class="fa-solid fa-database" style="color: #6C757D; font-size: 30px;"></i>
+                    </div>
+                    <p class="card-text">Desktop application to play hangman using Swing for the UI.</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-brands fa-github"></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card mx-auto techcard" style="width: 24rem;">
+                <img src="~/images/glqr.png" class="card-img-top" alt="Ahorcado project screenshot">
+                <div class="card-body text-center">
+                    <h5 class="card-title">QR Generator</h5>
+                    <div class="d-flex justify-content-center mb-3" style="gap: 10px;">
+                        <img src="~/images/Net.png" alt="net-framework" style="width: 30px;height: auto;" />
+                        <i class="fa-brands fa-html5" style="color: #e34c26; font-size: 30px;"></i>
+                        <i class="fa-brands fa-css3" style="color: #1572b6; font-size: 30px;"></i>
+                        <i class="fa-brands fa-bootstrap" style="color: #7952b3; font-size: 30px;"></i>
+                        <i class="fa-solid fa-database" style="color: #6C757D; font-size: 30px;"></i>
+                    </div>
+                    <p class="card-text">back office application to generate QRs and shorten Urls with razor pages.</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-brands fa-github"></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card mx-auto techcard" style="width: 24rem;">
+                <img src="~/images/portafolio-captura.png" class="card-img-top" alt="Ahorcado project screenshot">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Portfolio</h5>
+                    <div class="d-flex justify-content-center mb-3" style="gap: 10px;">
+                        <img src="~/images/Net.png" alt="net-framework" style="width: 30px;height: auto;" />
+                        <i class="fa-brands fa-html5" style="color: #e34c26; font-size: 30px;"></i>
+                        <i class="fa-brands fa-css3" style="color: #1572b6; font-size: 30px;"></i>
+                        <i class="fa-brands fa-bootstrap" style="color: #7952b3; font-size: 30px;"></i>
+                    </div>
+                    <p class="card-text">Professional portfolio to present myself as a fantastic developer</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-brands fa-github"></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+        <!-- Agregar más páginas para los otros proyectos -->
+    </div>
+
+    <!-- Controles del carrusel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#proyectsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#proyectsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</div>
+
+<div data-aos="fade-up">
+<div class="text-center mt-5 vt323-regular titulo" style="color: #3498db;"> 
+    <h2>TECHNOLOGIES</h2>
+</div>
+
+<div id="technologiesCarousel" class="carousel slide mt-5 vt323-regular mb-5" style="color: #3498db" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="d-flex justify-content-center gap-3">
                 <!-- Primera tarjeta -->
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/NETCore.png" alt=".NET Core" style="object-fit: cover; height: 150px;">
+                <div class="card techcard" style="width: 18rem;">
+                    <img class="card-img-top" src="/images/NETCore.png" alt=".NET Core">
                     <div class="card-body">
                         <h4 class="card-title">.Net Core</h4>
                         <p class="card-text">I've been working with .Net core 8 building applications using Razor and Blazor pages.</p>
                     </div>
                 </div>
                 <!-- Segunda tarjeta -->
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/JS.webp" alt="JavaScript" style="object-fit: cover; height: 150px;">
+                <div class="card techcard" style="width: 18rem;">
+                    <img class="card-img-top" src="/images/JS.webp" alt="JavaScript">
                     <div class="card-body">
                         <h4 class="card-title">JavaScript</h4>
                         <p class="card-text">Experienced in building dynamic and interactive web applications using modern JavaScript frameworks.</p>
                     </div>
                 </div>
                 <!-- Tercera tarjeta -->
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/SQLServer.png" alt="SQL Server" style="object-fit: cover; height: 150px;">
+                <div class="card techcard" style="width: 18rem;">
+                    <img class="card-img-top" src="/images/SQLServer.png" alt="SQL Server">
                     <div class="card-body">
                         <h4 class="card-title">SQL Server</h4>
                         <p class="card-text">Proficient in database management and optimization using SQL Server with Dapper integration.</p>
                     </div>
                 </div>
                 <!-- Cuarta tarjeta -->
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/Java.jpg" alt="Java" style="object-fit: cover; height: 150px;">
+                <div class="card techcard" style="width: 18rem;">
+                    <img class="card-img-top" src="/images/Java.jpg" alt="Java">
                     <div class="card-body">
                         <h4 class="card-title">Java</h4>
                         <p class="card-text">I started at programming with java and I've been learning frameworks as swing</p>
@@ -69,32 +190,32 @@
         <div class="carousel-item">
             <div class="d-flex justify-content-center gap-3">
                 <!-- Quinta tarjeta -->
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/csharp.png" alt="C#" style="object-fit: cover; height: 150px;">
+                <div class="card techcard" style="width: 18rem;">
+                    <img class="card-img-top" src="/images/csharp.png" alt="C#">
                     <div class="card-body">
                         <h4 class="card-title">C#</h4>
                         <p class="card-text">Expertise in building robust and scalable applications with C# and .NET frameworks.</p>
                     </div>
                 </div>
                 <!-- Sexta tarjeta -->
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/HTMLCSS.webp" alt="HTML & CSS" style="object-fit: cover; height: 150px;">
+                <div class="card techcard" style="width: 18rem;">
+                    <img class="card-img-top" src="/images/HTMLCSS.webp" alt="HTML & CSS">
                     <div class="card-body">
                         <h4 class="card-title">HTML & CSS</h4>
                         <p class="card-text">Proficient in creating responsive and modern web designs using HTML5 and CSS3.</p>
                     </div>
                 </div>
                 <!-- Séptima tarjeta -->
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/boostrap.jpg" alt="Bootstrap5" style="object-fit: cover; height: 150px;">
+                <div class="card techcard" style="width: 18rem;">
+                    <img class="card-img-top" src="/images/boostrap.jpg" alt="Bootstrap5">
                     <div class="card-body">
                         <h4 class="card-title">Bootstrap</h4>
                         <p class="card-text">Experienced in containerization and deployment using Docker.</p>
                     </div>
                 </div>
                 <!-- Octava tarjeta -->
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/git.png" alt="Git" style="object-fit: cover; height: 150px;">
+                <div class="card techcard" style="width: 18rem;">
+                    <img class="card-img-top" src="/images/git.png" alt="Git">
                     <div class="card-body">
                         <h4 class="card-title">Git</h4>
                         <p class="card-text">Version control expertise with Git and GitHub for collaborative development.</p>
@@ -113,8 +234,34 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
+</div>
+
+<div class="modal fade" id="ModalEmail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Send message</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>   
+            </div>
+        </div>
+    </div>
+</div>
 
 
-
-
-
+<script src="~/js/index.js"></script>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TtqgaoHbXUmp4DyrU4T9Xhat8QA2L4iMwC2GT632Tok=",
+  "Hash": "a0D5p3/XvXPV2z4pe3W18r42TKQkrprKK/c0oRUbRVM=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\Ahorcado-java.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "images/Ahorcado-java.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ahorcado-java.png"
+    },
+    {
       "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\boostrap.jpg",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
@@ -112,6 +131,25 @@
       "OriginalItemSpec": "wwwroot\\images\\boostrap.jpg"
     },
     {
+      "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\chess-java.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "images/chess-java.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\chess-java.png"
+    },
+    {
       "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\csharp.png",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
@@ -129,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\csharp.png"
+    },
+    {
+      "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\dot_netIcon.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "images/dot_netIcon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dot_netIcon.png"
     },
     {
       "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\fondoweb.webp",
@@ -186,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\git.png"
+    },
+    {
+      "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\grupoleben.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "images/grupoleben.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\grupoleben.png"
     },
     {
       "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\HTMLCSS.webp",
@@ -264,6 +340,25 @@
       "OriginalItemSpec": "wwwroot\\images\\JS.webp"
     },
     {
+      "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\Net.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "images/Net.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Net.png"
+    },
+    {
       "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\NETCore.png",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
@@ -281,6 +376,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\NETCore.png"
+    },
+    {
+      "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\portafolio-captura.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "images/portafolio-captura.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\portafolio-captura.png"
     },
     {
       "Identity": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\images\\SQLServer.png",

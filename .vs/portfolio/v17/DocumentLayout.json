@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|c:\\workingfolder\\portfolio\\portfolio\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55AEE881-70C6-4EF2-AFA2-D68596A31A3A}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\index.js",
+              "RelativeDocumentMoniker": "portfolio\\wwwroot\\js\\index.js",
+              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\js\\index.js",
+              "RelativeToolTip": "portfolio\\wwwroot\\js\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-02T15:18:57.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "portfolio\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "portfolio\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAK8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-30T17:11:26.036Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,34 +62,23 @@
               "RelativeDocumentMoniker": "portfolio\\Pages\\Index.cshtml",
               "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Index.cshtml",
               "RelativeToolTip": "portfolio\\Pages\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAB4AAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAAAMBAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-28T19:51:10.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "portfolio\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "portfolio\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAwDYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T16:35:35.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "portfolio\\Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\workingfolder\\portfolio\\portfolio\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "portfolio\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T16:35:18.738Z"
+              "WhenOpened": "2024-12-28T16:35:18.738Z",
+              "EditorCaption": ""
             }
           ]
         }
